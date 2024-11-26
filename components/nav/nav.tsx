@@ -13,7 +13,7 @@ export default function NavBar() {
   return (
     <nav
       id="nav"
-      className="fixed top-0 left-0 right-0 z-10 flex flex-col h-[80px] dark:bg-[rgba(black, 0.1)] white:bg-white w-full justify-center md:h-[100px]"
+      className="fixed top-0 left-0 right-0 z-10 flex flex-col h-[80px] bg-white dark:bg-[rgba(0,0,0,0.2)] backdrop-blur-sm w-full justify-center md:h-[100px]"
     >
       <div className="container">
       <div className="flex w-full items-center justify-between">
