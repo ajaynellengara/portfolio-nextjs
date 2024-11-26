@@ -55,8 +55,8 @@ export default function CareerPage() {
     }
   ];
   return (
-    <div className="w-full">
+    <section className="mt-[var(--header-y)] py-2">
       <Timeline data={data} />
-    </div>
+    </section>
   );
 }

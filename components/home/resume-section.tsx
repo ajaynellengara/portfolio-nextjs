@@ -1,15 +1,14 @@
 import ScrollAnimation from "@/components/animations/scroll-animation";
 import Link from "next/link";
 import { LinkPreview } from "../ui/link-preview";
-import { VelocityScroll } from "../ui/scroll-based-velocity";
 
 const ResumeSection = () => {
   return (
-      <section id="resume-area" className="py-20">
-        <div className="container">
+    <section id="resume-area" className="mt-6 py-20">
+      <div className="container">
         <h2 className="mb-10 text-3xl font-bold">Resume Area 📝</h2>
         <ScrollAnimation>
-          <h2 className="mb-4 w-fit bg-amber-100 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
+          <h2 className="mb-4 w-fit bg-orange-500 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
             Skills
           </h2>
           <h3 className="font-bold">Programming Languages_</h3>
@@ -26,7 +25,7 @@ const ResumeSection = () => {
         </ScrollAnimation>
         <ScrollAnimation>
           <hr className="my-10 dark:border-neutral-700" />
-          <h2 className="mb-4 w-fit bg-amber-100 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
+          <h2 className="mb-4 w-fit bg-orange-500 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
             Work & Experience
           </h2>
           <h3 className="font-bold">Work_</h3>
@@ -37,7 +36,7 @@ const ResumeSection = () => {
             >
               Intersmart
             </Link>, working as web developer on multiple
-            international companies with HTML, CSS, Javascript, Laravel and Next.js 
+            international companies with HTML, CSS, Javascript, Laravel and Next.js
           </p>
           <p className="mb-1">
             2020 - 2022: Web developer at “Oges infotech”,
@@ -53,7 +52,7 @@ const ResumeSection = () => {
           </p>
           <h3 className="font-bold">Design_ </h3>
           <p className="mb-1">
-          A new way to build better relationships with clients with modern UI designs aspects
+            A new way to build better relationships with clients with modern UI designs aspects
           </p>
           <h3 className="font-bold">Else_ </h3>
           <p className="mb-1">
@@ -71,7 +70,9 @@ const ResumeSection = () => {
         </ScrollAnimation>
         <hr className="my-10 dark:border-neutral-700" />
         <ScrollAnimation>
-          <h2 className="mb-4 text-2xl font-bold">Projects</h2>
+          <h2 className="mb-4 w-fit bg-orange-500 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
+            Projects
+          </h2>
           <p className="mb-1">
             <span className="w-fit bg-emerald-100 font-bold dark:bg-emerald-900">
               Constructed and Developed
@@ -105,7 +106,7 @@ const ResumeSection = () => {
         </ScrollAnimation>
         <ScrollAnimation>
           <hr className="my-10 dark:border-neutral-700" />
-          <h2 className="mb-4 w-fit bg-amber-100 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
+          <h2 className="mb-4 w-fit bg-orange-500 p-1 text-2xl font-bold dark:bg-brand dark:text-black">
             Else
           </h2>
           <h3 className="font-bold">Languages_</h3>
@@ -118,11 +119,11 @@ const ResumeSection = () => {
           </p>
           <h3 className="font-bold">Life vision_</h3>
           <p className="mb-1">
-            Build a beautiful homestay for rest life.
+            Build a beautiful homestay for the rest life.
           </p>
         </ScrollAnimation>
-        </div>
-      </section>
+      </div>
+    </section>
   );
 };
 

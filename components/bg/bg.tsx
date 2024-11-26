@@ -4,7 +4,7 @@ import Me from "@/public/webp/me.webp";
 
 const Bg =() => {
   return (
-    <div className="absolute inset-0 w-full h-full">
+    <div className="w-full h-full">
       <video
         autoPlay
         loop
@@ -13,7 +13,7 @@ const Bg =() => {
         controls={false}
         className="w-full h-full object-cover"
       >
-        <source src="/videos/bg.mp4" type="video/mp4" />
+        <source src="/videos/sec-bg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

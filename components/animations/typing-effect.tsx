@@ -3,7 +3,7 @@
 import React from "react";
 
 export function TypingEffect() {
-  const text = "TOBIAS MEYHÖFER";
+  const text = "ajay n";
   const [displayedText, setDisplayedText] = React.useState("");
   const [i, setI] = React.useState(0);
 

@@ -6,6 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { ThemeProvider } from "@/components/theme-provider";
 import NavBar from "@/components/nav/nav";
 import FooterContent from "@/components/FooterContent";
+import Bg from "@/components/bg/bg";
 
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--montserrat" });
 const space_grotesk = Space_Grotesk({
@@ -14,7 +15,7 @@ const space_grotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "ajay n - Webdeveloper Portfolio",
+  title: "Ajay n - Portfolio",
   description:
     "Portfolio of ajay",
 };
@@ -43,8 +44,11 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
-              <NavBar />
+          <NavBar />
           <main>
+            <div className="fixed inset-0 opacity-10 dark:opacity-30 pointer-events-none">
+              <Bg />
+            </div>
             {children}
           </main>
           <footer>

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: "https://tobiasmeyhoefer.de/sitemap.xml",
+    sitemap: "https://portfolio-nextjs-chi-beryl.vercel.app/sitemap.xml",
   }
 }

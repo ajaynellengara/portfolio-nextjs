@@ -59,7 +59,7 @@ html {
 
     --radius: 0.5rem;
 
-    --brand: #ffde00;
+    --brand: #ff5500;
   }
 
   .dark {
@@ -159,8 +159,8 @@ h3{
     auto;
 } */
 
-/* button:hover,
-a:hover,
+/* button:hover, */
+/* a:hover,
 .hoverable {
   cursor:
     url("/cursor/cursor-hover.svg") 4 2,
