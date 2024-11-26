@@ -19,7 +19,12 @@ export default function Home() {
             />
             <BlurIn
               duration={1}
-              word="web developer"
+              word="&quot;You never get a second chance to make a first impression.&quot;"
+              className="relative font-montserrat text-sm font-light md:text-1xl 2xl:text-2xl mb-1"
+            />
+            <BlurIn
+              duration={1}
+              word="- Will Rogers"
               className="relative font-montserrat text-sm font-light md:text-1xl 2xl:text-2xl mb-5"
             />
           </div>
